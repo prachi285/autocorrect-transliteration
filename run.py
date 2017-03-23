@@ -13,13 +13,13 @@ queries = ['how to handle a 1.5 year old when hitting',
 # train the model
 
 # supressing the output of training model
-stdout = sys.stdout
-sys.stdout = StringIO.StringIO()
+#stdout = sys.stdout
+#sys.stdout = StringIO.StringIO()
 
 model = auto.auto_correct(re_train=True,data=queries)
 
 # enabling the output standard output
-sys.stdout = stdout
+#sys.stdout = stdout
 
 # running the model
 model.run()
