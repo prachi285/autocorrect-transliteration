@@ -7,7 +7,8 @@ queries = ['how to handle a 1.5 year old when hitting',
  'how can i avoid getting sick in china',
  'how do male penguins survive without eating for four months',
  'how do i remove candle wax from a polar fleece',
- 'how do i find an out of print book']
+ 'how do i find an out of print book',
+ 'yeh query hai']
 
 # train the model
 
